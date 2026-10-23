@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The collection | Angela Fabbri | Fabbriology Fine Art</title>
+<meta name="description" content="Original paintings by Angela Fabbri, available first. Request info on any available work, or submit a commission inquiry for collected pieces.">
+<meta name="theme-color" content="#0E0C0B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script src="data.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body data-page="paintings">
+<div id="chrome-top"></div>
+<main id="main">
+  <div class="wrap">
+    <div class="page-head">
+      <p class="eyebrow">Original paintings</p>
+      <h1 class="h1">The collection</h1>
+      <p class="lede">Every painting is an original, one of one, with a certificate of authenticity. Prices on request.</p>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Series"></div>
+    <p class="result" id="result" aria-live="polite"></p>
+    <div class="cards reveal" id="grid"></div>
+    <button type="button" class="btn btn-outline archive-toggle" id="archiveToggle" aria-expanded="false" aria-controls="collected">Show collected works</button>
+    <section class="collected" id="collected" aria-labelledby="coll-h" hidden>
+      <h2 id="coll-h">Collected</h2>
+      <p class="lede">These works have found homes. Submit a commission inquiry and Angela can paint something in the same spirit for you.</p>
+      <div class="cards" id="collectedGrid"></div>
+    </section>
+    <div style="height:var(--sec)"></div>
+  </div>
+</main>
+<div id="chrome-foot"></div>
+</body>
+</html>

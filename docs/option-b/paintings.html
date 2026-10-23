@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paintings | Angela Fabbri</title>
+<meta name="description" content="Original paintings by Angela Fabbri. Available works first, collected works below. Request info or start a commission inquiry.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.className += ' js';</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html">ANGELA FABBRI</a>
+    <nav class="nav" aria-label="Main">
+      <a href="paintings.html" aria-current="page">Paintings</a>
+      <a href="index.html#shop">Shop</a>
+      <a href="index.html#meet">About</a>
+      <a href="#contact">Contact</a>
+      <a class="pill-link" href="portfolio.html">For designers &amp; galleries</a>
+    </nav>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mnav">Menu</button>
+  </div>
+  <nav class="mobile-nav" id="mnav" aria-label="Mobile">
+    <a class="mn" href="paintings.html" aria-current="page">Paintings</a>
+    <a class="mn" href="index.html#shop">Shop</a>
+    <a class="mn" href="index.html#meet">About</a>
+    <a class="mn" href="#contact">Contact</a>
+    <a class="trade" href="portfolio.html">For designers &amp; galleries<small>Portfolio, sizes and commissions</small></a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="sec" style="padding-bottom:0" aria-labelledby="pt-h">
+  <div class="wrap">
+    <div class="sec-head sec-head--mk-long">
+      <div class="marker" aria-hidden="true"><span>PAINTINGS</span></div>
+      <h1 class="h1" id="pt-h">Paintings</h1>
+      <p class="lede">Every piece is an original, one of one. Available works first; collected works below.</p>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Filter by series"></div>
+    <p class="result-line" id="result" aria-live="polite"></p>
+    <noscript><div class="nojs-note"><p>The filterable gallery needs JavaScript. You can <a href="https://angelafabbri.com/collections/original-paintings">browse the live collection</a> or <a href="mailto:angela@fabbriology.com?subject=Painting%20inquiry">email Angela</a>.</p></div></noscript>
+    <div class="cards p4" id="grid"></div>
+
+    <div class="archive" id="collected">
+      <h2 class="h2">Collected</h2>
+      <p class="archive-note">These works found homes. Love one? Submit a commission inquiry and Angela can paint you something in the same spirit.</p>
+      <button type="button" class="btn btn-ghost" id="arch-btn" aria-expanded="false" aria-controls="arch-grid">Show collected works</button>
+      <div class="cards p4" id="arch-grid" hidden></div>
+    </div>
+  </div>
+</section>
+</main>
+<div style="height:64px"></div>
+
+<section class="on-sun news" id="newsletter" aria-labelledby="news-h" style="padding-block:56px">
+  <div class="wrap">
+    <h2 class="h2" id="news-h">First look at new work</h2>
+    <form class="news-form" novalidate data-news>
+      <div class="field">
+        <label for="news-email">Email</label>
+        <input id="news-email" name="email" type="email" autocomplete="email" required>
+        <p class="err" id="news-err"></p>
+      </div>
+      <button class="btn" type="submit">Join</button>
+    </form>
+    <p class="news-done" role="status" hidden></p>
+  </div>
+</section>
+<footer class="site-foot on-ink" id="contact">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-mark" aria-hidden="true"><span>FABBRIOLOGY</span></div>
+      <p class="foot-name">Fabbriology Fine Art</p>
+    </div>
+    <div class="foot-cols">
+      <div><h3>Contact</h3>
+        <p><a href="mailto:angela@fabbriology.com">angela@fabbriology.com</a></p><p>Houston, Texas</p><p>Commissions welcome</p></div>
+      <div><h3>Explore</h3>
+        <ul><li><a href="paintings.html">Paintings</a></li><li><a href="index.html#shop">Studio goods</a></li><li><a href="portfolio.html">For designers &amp; galleries</a></li><li><a href="https://angelafabbri.com/pages/bio" title="Built in the next phase">Her story</a></li></ul></div>
+      <div><h3>Follow</h3>
+        <ul><li><a href="https://instagram.com/fabbriology" target="_blank" rel="noopener">Instagram<span class="sr-only"> (opens in a new tab)</span></a></li><li><a href="https://facebook.com/Fabbriology" target="_blank" rel="noopener">Facebook<span class="sr-only"> (opens in a new tab)</span></a></li></ul></div>
+    </div>
+    <p class="foot-bottom">&copy; 2026 Fabbriology Fine Art &middot; Design proposal, not the live store</p>
+  </div>
+</footer>
+
+<a class="demo-label" href="../index.html">Demo B: Mirror Studio (Option B, Color-Forward Studio)</a>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

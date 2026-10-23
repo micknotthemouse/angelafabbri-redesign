@@ -1,0 +1,421 @@
+{
+ "source": "source/pdf/AF_Portfolio_2026.pdf",
+ "pageCount": 10,
+ "pageSize": "612x792 pt (US Letter)",
+ "extractedImagesDir": "work/pdf-pages/2026/extract (images.json lists pixel size and placement)",
+ "note": "Artwork pages carry no captions; titles are inferred visually. Backwards text is part of the artwork images. Store handles and titles are inconsistent (stale copy-of handles), so store title is given separately.",
+ "pages": [
+  {
+   "page": 1,
+   "type": "cover",
+   "heading": "ANGELA FABBRI",
+   "text": "California is where the dreamer in me was born, Mississippi taught me to\nslow down, and in Texas I learned the value in that stillness. My life\ninspires my art — my journal in paint.",
+   "layout": {
+    "images": 3,
+    "placement": "Top-left cluster of cardboard stencil letters (img03, bleeds off top/left); wordmark image centred (img02); magenta quote glyph; installation photo of Angela seated on stool, full-bleed along bottom (img01).",
+    "background": "white",
+    "logos": [
+     "ANGELA FABBRI wordmark (raster, p01-img02)"
+    ]
+   },
+   "works": [],
+   "renderPath": "work/pdf-pages/2026/page-01.png",
+   "pageSizePt": [
+    612,
+    791.9999937
+   ],
+   "embeddedImages": 3
+  },
+  {
+   "page": 2,
+   "type": "artist-statement",
+   "heading": "ARTIST STATEMENT",
+   "text": "Shaped by life across California, Mississippi, and now Texas, I’m self-\ntaught and soul-driven. I’ve spent my life following the pull of\ncreativity. From an early commission at sixteen to showing in global art\ncapitals like Florence and Miami, I’ve trusted the process.\nI paint in reverse—and not just for the fun of making people tilt their\nheads. My art plays with perception. For me, art is not just visual; it's\nexperiential. Through backwards text and vibrant color, I invite viewers\nto slow down, look again, and be fully present in that moment. My\nprocess is intuitive, but intentional. I like to mix beauty with meaning,\nand polish with play. Whether I’m painting live for a crowd or layering\npaint in my studio, I’m always chasing that electric moment when a\npiece clicks—when someone connects with it, even if they can’t quite\nexplain why.\nMy work lives in hundreds of private and corporate collections and has\nbeen embraced by major institutions, including MOCA and the Whitney.\nThese recognitions fuel my mission to make art that captivates and\nconnects. Through vibrant palettes and layered meanings, I seek to\ntransform everyday spaces into portals of curiosity and joy. At the end\nof the day, I’m just here to make the world a little more colorful, a little\nmore curious, and a lot more fun to look at.\n– ARTIST STATEMENT",
+   "layout": {
+    "images": 1,
+    "placement": "Heading with black brush-stroke underline (vector); body text full width justified; handwritten signature image (p02-img01) bottom left after dash.",
+    "background": "white",
+    "logos": []
+   },
+   "works": [],
+   "renderPath": "work/pdf-pages/2026/page-02.png",
+   "pageSizePt": [
+    612,
+    791.9999937
+   ],
+   "embeddedImages": 1
+  },
+  {
+   "page": 3,
+   "type": "works",
+   "heading": null,
+   "text": "",
+   "layout": {
+    "images": 6,
+    "placement": "2 columns x 3 rows grid of portrait artworks with soft drop shadow, centred, no captions or text on page.",
+    "background": "white",
+    "logos": []
+   },
+   "works": [
+    {
+     "title": "Bloom Big (purple bouquet)",
+     "pdfImage": "work/pdf-pages/2026/extract/p03-img06.png",
+     "position": "row1-left",
+     "size": "40 x 60in",
+     "medium": "Acrylic on wood panel (per store listing)",
+     "year": null,
+     "storeTitle": "Beauty Like A Rose, Strength Like A Weed",
+     "matchedHandle": "live-luxuriously-copy",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/Fabbri_BeautyLikeARose_StrengthLlikeAWeed.jpg?v=1749254597",
+     "confidence": "medium",
+     "note": "Store title is \"Beauty Like A Rose, Strength Like A Weed\"; art reads WATERMEBLOOMBIG backwards. Pixel distance weak due to drop shadow, composition identical."
+    },
+    {
+     "title": "Keep It Simple (Marfa water tower)",
+     "pdfImage": "work/pdf-pages/2026/extract/p03-img01.png",
+     "position": "row1-right",
+     "size": "60 x 40in",
+     "medium": "Acrylic on wood panel (per store listing)",
+     "year": null,
+     "storeTitle": "Live Luxuriously",
+     "matchedHandle": "exit-strategy-copy",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/Marfa.jpg?v=1749254522",
+     "confidence": "medium-high",
+     "note": "Store title \"Live Luxuriously\"; identical to Marfa limited-edition print art."
+    },
+    {
+     "title": "Orangutan (green text on orange)",
+     "pdfImage": "work/pdf-pages/2026/extract/p03-img02.png",
+     "position": "row2-left",
+     "size": "36 x 48in",
+     "medium": "Mixed media on wood panel",
+     "year": null,
+     "storeTitle": "A Plane, A Tuk Tuk, and a Tent",
+     "matchedHandle": "a-plane-a-tuk-tuk-and-a-tent",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/Aplaneatuktukandatent.jpg?v=1740012670",
+     "confidence": "high",
+     "note": "Store title \"A Plane, A Tuk Tuk, and a Tent\"; matched visually."
+    },
+    {
+     "title": "All The Feels (bouquet on black/white text)",
+     "pdfImage": "work/pdf-pages/2026/extract/p03-img03.png",
+     "position": "row2-right",
+     "size": "36 x 48in",
+     "medium": "Acrylic on wood panel (per store listing)",
+     "year": null,
+     "storeTitle": "I Still Love You Though",
+     "matchedHandle": "sensory-overload-copy",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/IStillLoveYouThough.jpg?v=1749255187",
+     "confidence": "high",
+     "note": "Store title \"I Still Love You Though\"."
+    },
+    {
+     "title": "I Want You Too",
+     "pdfImage": "work/pdf-pages/2026/extract/p03-img04.png",
+     "position": "row3-left",
+     "size": "30 x 36in",
+     "medium": "Textured acrylic with stencils, resin",
+     "year": null,
+     "storeTitle": "I Want You Too",
+     "matchedHandle": "i-want-you-too",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/Iwantyoutoocopy.jpg?v=1749513839",
+     "confidence": "high",
+     "note": "Exact title match."
+    },
+    {
+     "title": "I Don't Understand You Either (Green)",
+     "pdfImage": "work/pdf-pages/2026/extract/p03-img05.png",
+     "position": "row3-right",
+     "size": "36 x 48in",
+     "medium": "Textured acrylic with stencils, resin",
+     "year": null,
+     "storeTitle": "I Don't Understand You Either (Green)",
+     "matchedHandle": "i-dont-understand-you-either-green-1",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/GreenIDUYE.jpg?v=1749513512",
+     "confidence": "high",
+     "note": "Exact title match."
+    }
+   ],
+   "renderPath": "work/pdf-pages/2026/page-03.png",
+   "pageSizePt": [
+    612,
+    791.9999937
+   ],
+   "embeddedImages": 6
+  },
+  {
+   "page": 4,
+   "type": "bio",
+   "heading": "BIO",
+   "text": "California born, Mississippi raised, and Texas based, Angela Fabbri is a\nself-taught artist. Internationally recognized for her backwards text-\nbased work, she has earned praise from press, celebrity and\ninternational collectors. With her contemporary realism and bold use of\ncolor, she has achieved milestones, including exhibiting at the\nprestigious 2019 Florence Biennale in Italy, a solo exhibition in the\nartistic haven of Marfa, TX, and consecutive participation in the largest\nart week in the world, Art Basel Week Miami.\nHer creative talent manifested early on when, at the age of 16, she\nreceived her first commission. With over 25 years creating, Fabbri has\nbeen a professional artist since 2017, and her work can be found in 100s\nof private and corporate collections.\nThe Museum of Contemporary Art (MOCA) in Los Angeles recognized\nher talent in 2017, selecting her work for a group exhibition in Houston,\na gesture echoed again in 2018 by the assistant curator for the Whitney\nin New York. Live painting events for Baccarat, Thrillist, and Dos Equis\nfurther established her presence in an interactive way.\nIn 2019, Fabbri expanded her engagement with art enthusiasts by\nestablishing a popup gallery at Houston's luxury shopping destination,\nThe River Oaks District. With iconic neighbors, Harry Winston, Hermes\nand others, Fabbri's kaleidoscopic world of color became a captivating\ndestination for three exhilarating months.\nFabbri’s work has been featured in several publications including,\nVogue, The Washington Post, The Houston Chronicle, Modern Luxury,\nPaper City, The Book of Lists, and The Round Top Show Guide. She\nlooks forward to continuing her passionate journey in this wonderful\nworld of color. BIO",
+   "layout": {
+    "images": 0,
+    "placement": "Heading + brush underline, five justified paragraphs; pink brush strokes (vector) top-right, green brush strokes bottom-left.",
+    "background": "white",
+    "logos": []
+   },
+   "works": [],
+   "renderPath": "work/pdf-pages/2026/page-04.png",
+   "pageSizePt": [
+    612,
+    791.9999937
+   ],
+   "embeddedImages": 0
+  },
+  {
+   "page": 5,
+   "type": "works",
+   "heading": null,
+   "text": "",
+   "layout": {
+    "images": 6,
+    "placement": "2 columns x 3 rows grid of square artworks with drop shadow, no captions.",
+    "background": "white",
+    "logos": []
+   },
+   "works": [
+    {
+     "title": "Water Me (roses, black)",
+     "pdfImage": "work/pdf-pages/2026/extract/p05-img01.png",
+     "position": "row1-left",
+     "size": "50 x 50in",
+     "medium": "Acrylic on wood panel (per store listing)",
+     "year": null,
+     "storeTitle": "Now or Never",
+     "matchedHandle": "neon-roses",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/50x50_neon_roses_water_me.jpg?v=1740018245",
+     "confidence": "medium",
+     "note": "Store title \"Now or Never\" (50x50, UV reactive); image visually identical (distance 14) but the \"Water Me (Black 22)\" listing is a different image."
+    },
+    {
+     "title": "Bloom Big (Peach)",
+     "pdfImage": "work/pdf-pages/2026/extract/p05-img02.png",
+     "position": "row1-right",
+     "size": "22 x 22in",
+     "medium": "Acrylic on wood panel (per store listing)",
+     "year": null,
+     "storeTitle": "Bloom Big (Peach 22)",
+     "matchedHandle": "blaze-your-own-trail-pink-22",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/BB_Peach_22.jpg?v=1749256373",
+     "confidence": "high",
+     "note": "Store title \"Bloom Big (Peach 22)\"."
+    },
+    {
+     "title": "I Don't Understand You Either (Blue)",
+     "pdfImage": "work/pdf-pages/2026/extract/p05-img03.png",
+     "position": "row2-left",
+     "size": null,
+     "medium": "Textured acrylic with stencils (inferred)",
+     "year": null,
+     "storeTitle": null,
+     "matchedHandle": null,
+     "matchedImage": null,
+     "confidence": "none",
+     "note": "No store product has this blue colourway; nearest, \"I Am Bluetiful\", is a different portrait piece (distance 37 vs 13-20 for true matches)."
+    },
+    {
+     "title": "I'm A Conversation Piece (red)",
+     "pdfImage": "work/pdf-pages/2026/extract/p05-img04.png",
+     "position": "row2-right",
+     "size": "48 x 48in",
+     "medium": "Textured acrylic with stencils, resin",
+     "year": null,
+     "storeTitle": "I'm A Conversation Piece (Fl. Orange)",
+     "matchedHandle": "im-a-conversation-piece-fl-orange",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/Fabbri-1-I_maconversationpiece.jpg?v=1749514106",
+     "confidence": "medium-high",
+     "note": "Store title says Fl. Orange; the listed image is the red piece matching the PDF."
+    },
+    {
+     "title": "Invest Wisely (Hublot watch, yellow)",
+     "pdfImage": "work/pdf-pages/2026/extract/p05-img05.png",
+     "position": "row3-left",
+     "size": "40 x 40in",
+     "medium": "Acrylic on wood panel (per store listing)",
+     "year": null,
+     "storeTitle": "Watch This!",
+     "matchedHandle": "i-still-love-you-though-copy",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/Watch_This_sm.jpg?v=1749255380",
+     "confidence": "medium",
+     "note": "Store title \"Watch This!\" (40x40); also near-identical to print \"Limited Edition Print - Hublot Big Bang Watch\" (print, not original)."
+    },
+    {
+     "title": "Land of Smiles (green elephant)",
+     "pdfImage": "work/pdf-pages/2026/extract/p05-img06.png",
+     "position": "row3-right",
+     "size": "40 x 40in",
+     "medium": "Acrylic on wood panel (per store listing)",
+     "year": null,
+     "storeTitle": "Same Same, But Different",
+     "matchedHandle": "scrumptious-copy",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/Fabbri_SameSame_ButDifferent.jpg?v=1749255904",
+     "confidence": "high",
+     "note": "Store title \"Same Same, But Different\" (40x40); distance 13."
+    }
+   ],
+   "renderPath": "work/pdf-pages/2026/page-05.png",
+   "pageSizePt": [
+    612,
+    791.9999937
+   ],
+   "embeddedImages": 6
+  },
+  {
+   "page": 6,
+   "type": "in-conversation",
+   "heading": "IN CONVERSATION",
+   "text": "Inspiration comes to me from all places at\nall times...it could be the color of a vine\ngrowing on the side of a building, a word\nsomeone says during a dinner conversation,\nor a lyric from a song. Each body of work or\nindividual painting has its own specific\ninspiration or story I'm trying to tell, but one\nunderlying theme throughout my work is\nthat time is our most valuable currency. We\ncan't work harder for more, we can't save it\nup, and it doesn't compound. Some of my\npaintings are bolder in conveying this, like\nmy clocks with the backwards message\n\"Invest Wisely\" and some more subtle with\nlayers of detail that you would only see if\nyou stood still to enjoy the moment.\nO ne of the most surprising moments I’ve had\nwas at my opening in Round Top Texas\nduring the Design Show when a viewer\ncomplemented my work, specifically liking\nthat I did my words backwards so that it\nforces you to slow down and be in the\nmoment. I was so pleasantly shocked that\nshe understood exactly what I was doing\nand why....explaining it to me as if she were\nthe creator. All being the first time she had\nbeen exposed to my work. That feeling,\nknowing that the viewer \"got it\" organically\nwas so rewarding. IN CONVERSATION",
+   "layout": {
+    "images": 2,
+    "placement": "Interview spread: text column left with alarm-clock painting right (solid red offset block behind, offset down-right), then roses painting left (maroon offset block, down-left) with text right.",
+    "background": "white",
+    "logos": []
+   },
+   "works": [
+    {
+     "title": "Invest Wisely (Bitcoin alarm clock)",
+     "pdfImage": "work/pdf-pages/2026/extract/p06-img01.png",
+     "position": "upper-right",
+     "size": "36 x 48in",
+     "medium": "Acrylic on wood panel (per store listing)",
+     "year": null,
+     "storeTitle": "Buy The Dip",
+     "matchedHandle": "green-goddess-copy-1",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/Fabbri_InvestWisely.jpg?v=1749250354",
+     "confidence": "high",
+     "note": "Store title \"Buy The Dip\" (image file Fabbri_InvestWisely)."
+    },
+    {
+     "title": "Blaze Your Own Trail (green)",
+     "pdfImage": "work/pdf-pages/2026/extract/p06-img02.png",
+     "position": "lower-left",
+     "size": "30 x 36in",
+     "medium": "Acrylic on wood panel (per store listing)",
+     "year": null,
+     "storeTitle": "Empty Roads & Playlists",
+     "matchedHandle": "empty-roads-playlists",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/EmptyRoadsandPlayLists.jpg?v=1741112008",
+     "confidence": "medium",
+     "note": "Green colourway; store sells this image as \"Empty Roads & Playlists\" (30x36). The store product titled \"Blaze Your Own Trail\" is the maroon colourway."
+    }
+   ],
+   "renderPath": "work/pdf-pages/2026/page-06.png",
+   "pageSizePt": [
+    612,
+    791.9999937
+   ],
+   "embeddedImages": 2
+  },
+  {
+   "page": 7,
+   "type": "in-conversation",
+   "heading": "IN CONVERSATION",
+   "text": "IN CONVERSATION I conti nuously explore my techniques,\nworking to loosen and refine in all the right\nways. I want my work to have an effortless\nbut intentional feel with the different\ntechniques that I combine. Loose, messy\nstencil paint that bleeds outside the lines\nagainst sharp, crisp edges from an opposing\ndetail. Challenging myself with different\nsubjects, unexpected color combinations,\nasking myself how I can add another layer to\nthe story I'm telling. Life experiences are so\ntransformative. They provide perspective,\ngreat levels of joy, sadness, appreciation,\nadventure, accomplishment...all stories I\nwant to tell through my work.\nJ oy, laughter, confusion, curiosity,\naccomplishment, are all just some of the\nfeels I hope to evoke in my viewers. At first\nglance, the viewer is drawn to my work\nbecause the color or subject grabs their\nattention. From there I want to spark their\ncuriosity with my backwards text, pulling\nthem in to focus a little more intently\nbecause it's harder to read backwards...it\nforces you to slow down. At that moment,\nthey have been on an effortless journey,\nguiding them to a fully present place.",
+   "layout": {
+    "images": 2,
+    "placement": "Same interview layout as page 6: text left / cactus painting right (periwinkle offset block), painting left (magenta offset block) / text right.",
+    "background": "white",
+    "logos": []
+   },
+   "works": [
+    {
+     "title": "Handle With Care (prickly pear cactus, pink)",
+     "pdfImage": "work/pdf-pages/2026/extract/p07-img01.png",
+     "position": "upper-right",
+     "size": "30 x 36in",
+     "medium": "Acrylic on wood panel (per store listing)",
+     "year": null,
+     "storeTitle": "Green Goddess",
+     "matchedHandle": "green-goddess-copy",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/Fabbri_GreenGoddess.jpg?v=1749250263",
+     "confidence": "high",
+     "note": "Store title \"Green Goddess\" (image file Fabbri_GreenGoddess, 30x36). The store product \"Handle With Care\" is a different stencil-lettered piece."
+    },
+    {
+     "title": "It's Rude To Stare (black)",
+     "pdfImage": "work/pdf-pages/2026/extract/p07-img02.png",
+     "position": "lower-left",
+     "size": "30 x 36in",
+     "medium": "Textured acrylic with stencils, resin",
+     "year": null,
+     "storeTitle": "It's Rude To Stare - Black",
+     "matchedHandle": "its-rude-to-stare-black",
+     "matchedImage": "https://cdn.shopify.com/s/files/1/0052/8334/8544/files/IMG_06362.jpg?v=1740006528",
+     "confidence": "medium",
+     "note": "Title and lettering match; listed images score weakly on pixel distance (image 1: 139, image 2: 51), verify by eye."
+    }
+   ],
+   "renderPath": "work/pdf-pages/2026/page-07.png",
+   "pageSizePt": [
+    612,
+    791.9999937
+   ],
+   "embeddedImages": 2
+  },
+  {
+   "page": 8,
+   "type": "commissions",
+   "heading": "COMMISSIONS",
+   "text": "Initial Consultation: Begin by discussing your\ndesired size, color palette, and the specific\nspace where the artwork will be displayed.\nAngela encourages sharing inspiration images or\nfabric swatches to ensure the piece aligns with\nyour environment.\nDesign Proposal: Angela will provide a design\nconcept or mock-up based on your preferences.\nThis stage allows for adjustments to ensure the\nartwork meets your expectations.\nAgreement and Deposit: Once the design is\napproved, a contract is established outlining the\nproject's scope, timeline, and pricing. A deposit\nis required to initiate the work.\nCreation Process: Angela will commence the\ncreation of the artwork, keeping you informed\nwith progress updates. Your feedback is\nwelcomed to ensure the piece evolves\naccording to your vision.\nCompletion and Delivery: Upon completion, the\nfinal piece is delivered to your location of\npreference. COMMISSIONS",
+   "layout": {
+    "images": 4,
+    "placement": "Cardboard letters decoration top-right (img02). Left: portrait photo of Angela on crate with purple offset block. Right: five bold-lead process steps. Bottom row: two interior room mockups (img04 left with yellow offset, img03 right with green offset); left mockup shows the Bloom Big bouquet painting, right shows the red I'm A Conversation Piece.",
+    "background": "white",
+    "logos": []
+   },
+   "works": [],
+   "renderPath": "work/pdf-pages/2026/page-08.png",
+   "pageSizePt": [
+    612,
+    791.9999937
+   ],
+   "embeddedImages": 4
+  },
+  {
+   "page": 9,
+   "type": "cv-exhibitions",
+   "heading": "SHOWS & EVENTS",
+   "text": "SHOWS & EVENTS Solo Exhibitions\n2025 – The Halles, Round Top, TX\n2021 – Abstracts with Attitude, Houston TX\n2019 – Marfa Wine Co., Marfa, TX\n– 2000 SQFT of Fabbri, Houston, TX\n2018 – Inversion, Four Seasons, Houston, TX\n2017 – Unveiling Inversion, Houston, TX\n2016 – Color & Texture, Houston, TX\n2014 – Color Fusion, Co-Hosted by Billy Reid\nJuried Art Fairs\n2025 - Spectrum Miami | Art Basel Miami\n2023 - Spectrum Miami | Art Basel Miami\n2022 – Spectrum Miami | Art Basel Miami\n2021 – Spectrum Miami | Art Basel Miami\n2019 – Spectrum Miami | Art Basel Miami\n– Florence Biennale, Florence, Italy\nSelected Group Exhibitions\n2025 – The Halles, Round Top, TX\n2024 – Southern Kindness Gallery, Houston, TX\n2021 – Patrick Jones Gallery, Dallas, TX\n2019 – Assistance League Celebrates Texas Art, juried exhibition, Houston TX\nguest juror, Jennie Goldstein, assistant curator, Whitney Museum of American Art\n2018 – Assistance League Celebrates Texas Art, juried exhibition, Houston TX\nguest juror, Anna Katz, assistant curator, MOCA Los Angeles\n2017 – Four Wise Women, Esperson Gallery, Houston, TX\n– Super Bowl Bash, Esperson Gallery, Houston, TX\n2016 – JW Marriott Downtown, Houston, TX\nSawyer Yards, Clint Willour juried exhibition, Houston, TX\nInstallation s, Notable Press, and Live Painting\n2023 – British Vogue, Vogue Gallery (May, June, and July issues)\n2019 – The Westin Med Center, Permanent Installation (main lobby), Houston Chronicle\n– Houston Business Journal, Book Of Lists\n2018 – Modern Luxury Feature, The Art of Living\n– Washington Post, Carla Hall Takes Soul Food Mainstream\n– Houston Chronicle, The Gray Couch Project\n– Thrillist Dos Equis Event, Live Painting\n– Baccarat Private Event, Live Painting",
+   "layout": {
+    "images": 0,
+    "placement": "Text only with bold subheadings (Solo Exhibitions, Juried Art Fairs, Selected Group Exhibitions, Installations/Notable Press/Live Painting); green brush stroke right, pink brush stroke bottom-left (vector).",
+    "background": "white",
+    "logos": []
+   },
+   "works": [],
+   "renderPath": "work/pdf-pages/2026/page-09.png",
+   "pageSizePt": [
+    612,
+    791.9999937
+   ],
+   "embeddedImages": 0
+  },
+  {
+   "page": 10,
+   "type": "contact",
+   "heading": "CONTACT",
+   "text": "CONTACT @Fabbriology\nwww.Fabbriology.com\n+1 (713) 677-4878\nAngela@Fabbriology.com\n2000 Edwards ST, #118, Houston, TX 77006",
+   "layout": {
+    "images": 8,
+    "placement": "Centred portrait photo of Angela on crate (p10-img08). Contact rows with circular icons (camera, globe, phone, mail; phone and mail icons render as solid black circles in pdfjs, probably a render glitch). Address line, black brush bar, then press logo grid: row1 Houston Chronicle, Paper City, Florence Biennale, British Vogue; row2 Modern Luxury Houston, Culturemap, The Washington Post.",
+    "background": "white",
+    "logos": [
+     "Houston Chronicle",
+     "Paper City",
+     "Florence Biennale",
+     "British Vogue",
+     "Modern Luxury Houston",
+     "Culturemap",
+     "The Washington Post"
+    ]
+   },
+   "works": [],
+   "renderPath": "work/pdf-pages/2026/page-10.png",
+   "pageSizePt": [
+    612,
+    791.9999937
+   ],
+   "embeddedImages": 8
+  }
+ ]
+}
