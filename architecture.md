@@ -1,0 +1,30 @@
+# Architecture — angelafabbri.com redesign demo
+
+## What this is
+A static demo of a redesigned angelafabbri.com, built for Angela Fabbri to compare three design directions and then review one full click-through site. Served by GitHub Pages from `docs/`. Nothing in the demo sends email or sells anything.
+
+## Components
+- `source/` — scraped inputs. `data/products.json` and `original-paintings.json` (Shopify storefront JSON), `collections.json`, `storeify-config.json` (decoded Request-a-Quote app config), `html/` (saved live pages), `images/` (1600px product images, git-ignored), `pdf/` (the two portfolio PDFs, git-ignored), `portfolio-structure.json` (page-by-page teardown of the 2026 PDF).
+- `docs/` — the published site. `index.html` landing (pick a direction), `option-a/`, `option-b/`, `option-c/` (one folder per design direction: `index.html`, `paintings.html`, `painting.html?handle=`, `portfolio.html`, `data.js`, `style.css`, `app.js`, `build-data.mjs`), `current/` (reference mirror of the live site, links rewritten, assets hotlinked from the Shopify CDN).
+- `work/` — research notes (`research/`), design specs and skeptic review (`design/`), screenshots (`screens/`), PDF renders (`pdf-pages/`), `build-checkpoint.md`.
+
+## Data flow
+Shopify storefront JSON → `build-data.mjs` per option → `data.js` (paintings without prices, merch with prices and live URLs) → pages render cards and detail views client-side. Product images are hotlinked from `angelafabbri.com/cdn/shop/...` with `width=` parameters, so the repo stays small and the same assets serve a later Shopify implementation.
+
+## Request-info flow
+Demo: button → inline dropdown below the button (Name, Email, optional Note, painting title attached) → client-side validation → success state naming the business address. No network call.
+Live site today: Storeify Request-a-Quote modal → app server → "Send to" address (currently a Gmail address; the shop email on file is the business address).
+Switch-over (no developer needed): Shopify admin → Apps → Request a Quote (Storeify) → Forms → "I'm Interested!" → Send to → business address. Optional: set the reply-to/shop email there as well.
+
+## Real implementation path (if Angela approves a direction)
+- Theme: customize Dawn (sections, templates, CSS) or a new theme; keep collections and product handles so URLs do not change.
+- Inline inquiry: either (a) restyle the Storeify form to render inline under the button on product cards and product pages, keeping its email delivery; or (b) replace it with the native Shopify contact form (`{% form 'contact' %}`) posting to the store's customer email, with the product title in a hidden field. (b) removes an app dependency; (a) keeps the quote history the app stores.
+- Hide prices on paintings: Storeify "hide price" setting or theme-level removal for the painting collections; keep prices for merch.
+- Portfolio gallery: a theme page template with the rebuilt pages; keep the PDF download link.
+- Analytics: track Request-info opens and submits as events to measure the conversion change.
+
+## Constraints
+- Static HTML/CSS/JS, no build step, no framework, Google Fonts only.
+- Must work from `file://` and from the GitHub Pages subfolder (no root-absolute links).
+- Mobile-first, keyboard accessible, alt text on every image.
+- No credentials or private data in the repo; the Storeify config in `source/data` holds email addresses only and is not copied to the vault.

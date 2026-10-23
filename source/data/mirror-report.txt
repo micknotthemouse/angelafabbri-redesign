@@ -1,0 +1,7 @@
+Pages fetched and saved: 83 of 83
+Failures (0):
+Product pages mirrored: 55
+Product pages skipped (cap 60): 0
+Total size docs/current: 29.5 MB
+Screenshots (work/screens/current): index, collections/original-paintings, products/ghost-chair, pages/bio. Layout, fonts and images load.
+Visual differences: cart/search/account links go to live site; cart drawer, predictive search, variant/add-to-cart actions are non-functional; protocol-relative asset URLs forced to https so file:// works; a fixed banner is added bottom-right. Shopify JS may log errors offline.
