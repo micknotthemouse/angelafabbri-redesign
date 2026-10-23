@@ -1,0 +1,5 @@
+/* Shop, product and contact extras (local to these pages) */
+.contact-list a{text-decoration-color:var(--brass);text-underline-offset:5px}
+.contact-list a:hover{color:var(--ivory)}
+.contact-list li{min-height:44px;display:flex;align-items:center}
+.contact-list li a{display:inline-flex;align-items:center;min-height:44px}

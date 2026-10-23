@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Commissions | Angela Fabbri | Fabbriology Fine Art</title>
+<meta name="description" content="Commission an original painting from Angela Fabbri: your size, your palette, even a message hidden in the letters. Start a commission inquiry.">
+<meta name="theme-color" content="#0E0C0B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://angelafabbri.com" crossorigin>
+<link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="paintings.css">
+<script src="data.js" defer></script>
+<script src="components.js" defer></script>
+<script src="app.js" defer></script>
+<script src="paintings.js" defer></script>
+</head>
+<body data-page="commissions">
+<div data-site-header></div>
+<main id="main">
+  <div class="wrap">
+    <section class="comm-intro" aria-labelledby="comm-h">
+      <div class="c-text">
+        <p class="eyebrow">Commissions</p>
+        <h1 class="h1" id="comm-h" style="margin-top:12px">A painting made for your room.</h1>
+        <p class="lede">Your size, your palette, even a message hidden in the letters. Angela paints it and keeps you in the loop.</p>
+        <div id="commStart"></div>
+      </div>
+      <div class="c-media">
+        <div class="comm-photo off off-dr blk-purple"><img src="assets/portfolio/angela-crate.png" alt="Angela Fabbri sitting on a painted shipping crate in a gallery corridor" width="410" height="545" fetchpriority="high" decoding="async"></div>
+      </div>
+    </section>
+  </div>
+
+  <section class="section comm-how" aria-labelledby="how-h">
+    <div class="wrap">
+      <div class="sec-head"><p class="eyebrow">How it works</p><h2 class="h2" id="how-h">From first conversation to your wall</h2></div>
+      <ol class="steps comm-steps">
+        <li><div>
+          <h3>Consultation</h3>
+          <p><strong>Initial Consultation:</strong> Begin by discussing your desired size, color palette, and the specific space where the artwork will be displayed. Angela encourages sharing inspiration images or fabric swatches to ensure the piece aligns with your environment.</p>
+        </div></li>
+        <li><div>
+          <h3>Proposal and agreement</h3>
+          <p><strong>Design Proposal:</strong> Angela will provide a design concept or mock-up based on your preferences. This stage allows for adjustments to ensure the artwork meets your expectations.</p>
+          <p><strong>Agreement and Deposit:</strong> Once the design is approved, a contract is established outlining the project's scope, timeline, and pricing. A deposit is required to initiate the work.</p>
+        </div></li>
+        <li><div>
+          <h3>Creation and delivery</h3>
+          <p><strong>Creation Process:</strong> Angela will commence the creation of the artwork, keeping you informed with progress updates. Your feedback is welcomed to ensure the piece evolves according to your vision.</p>
+          <p><strong>Completion and Delivery:</strong> Upon completion, the final piece is delivered to your location of preference.</p>
+        </div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section band comm-rooms" aria-labelledby="rooms-h">
+    <div class="wrap">
+      <div class="sec-head"><p class="eyebrow">Pictured in a room</p><h2 class="h2" id="rooms-h">See how a painting changes a space</h2></div>
+      <div class="rooms">
+        <figure>
+          <div class="off off-dl blk-yellow"><img src="assets/portfolio/room-bloom-big.png" alt="A staged living room with Angela Fabbri's rose-bouquet painting Beauty Like A Rose, Strength Like A Weed on the wall" width="769" height="480" loading="lazy" decoding="async"></div>
+          <figcaption>Staged room view · Beauty Like A Rose, Strength Like A Weed</figcaption>
+        </figure>
+        <figure>
+          <div class="off off-dr blk-lime"><img src="assets/portfolio/room-conversation-piece.png" alt="A staged room with Angela Fabbri's red painting I'm A Conversation Piece on the wall" width="769" height="480" loading="lazy" decoding="async"></div>
+          <figcaption>Staged room view · I'm A Conversation Piece</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="coll-h">
+    <div class="wrap">
+      <div class="sec-head"><p class="eyebrow">Collected</p><h2 class="h2" id="coll-h">Recently collected. Yours can be next.</h2>
+        <p class="lede">Each of these found a home. Submit a commission inquiry and Angela can paint something in the same spirit for you.</p></div>
+      <div class="cards cards--3" id="collectedGrid"></div>
+    </div>
+  </section>
+
+  <section class="section comm-form" aria-labelledby="form-h">
+    <div class="wrap">
+      <div class="form-block">
+        <h2 class="h2" id="form-h">Tell Angela about your space.</h2>
+        <p class="lede" style="margin:16px 0 28px">Share a size, a palette or a hidden message. She replies personally.</p>
+        <div id="commForm"></div>
+      </div>
+    </div>
+  </section>
+</main>
+<div data-site-footer></div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+/* Bio and press page additions (loaded after style.css) */
+.about{align-items:start}
+@media(min-width:1024px){.about .a-img{position:sticky;top:calc(var(--hdr,72px) + 24px)}}
+.press-frame--white{background:#fff}

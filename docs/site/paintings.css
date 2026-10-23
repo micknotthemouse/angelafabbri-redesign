@@ -1,0 +1,22 @@
+/* Local additions for paintings.html, painting.html and commissions.html (foundation style.css is untouched). */
+.d-info .eyebrow a{text-decoration:underline;text-decoration-color:var(--brass);text-underline-offset:5px}
+.detail{padding-bottom:0}
+.also{padding-top:calc(var(--sec) * .75);padding-bottom:var(--sec)}
+.page-head .lede{min-height:1.6em}
+
+/* commissions: three steps side by side on desktop */
+.comm-steps{margin-top:0}
+.comm-steps li>div>h3{font:400 30px/1.1 var(--serif);letter-spacing:0;margin-bottom:12px;color:var(--ivory)}
+.comm-steps li>div>p+p{margin-top:12px}
+.comm-steps strong{color:var(--ivory)}
+@media(min-width:1024px){
+  .comm-steps{grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gut)}
+  .comm-steps li{grid-template-columns:minmax(0,1fr);gap:16px;padding-right:24px}
+}
+.comm-rooms .rooms img{box-shadow:0 18px 40px rgba(0,0,0,.35)}
+.comm-rooms figcaption{margin-top:20px}
+.comm-form{border-top:1px solid var(--line)}
+.comm-intro .inq-card{background:var(--umber)}
+.comm-steps{align-items:start}
+.comm-steps li{align-content:start}
+@media(min-width:1024px){.comm-rooms figcaption{margin-top:44px}}
