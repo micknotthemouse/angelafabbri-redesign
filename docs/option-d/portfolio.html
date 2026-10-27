@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio for designers &amp; galleries | Angela Fabbri</title>
+<meta name="description" content="Portfolio for designers and galleries: original paintings by Angela Fabbri.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f1f2f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)">
+<script>/* theme before first paint; ?theme=dark|light previews without saving */
+(function(){try{var v=localStorage.getItem('afd-theme');var q=/[?&]theme=(dark|light)/.exec(location.search);if(q)v=q[1];if(v==='dark'||v==='light')document.documentElement.setAttribute('data-theme',v);}catch(e){}})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://angelafabbri.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="portfolio">
+<a class="skip" href="#main">Skip to content</a>
+<div class="frame" aria-hidden="true"></div>
+<header class="hd">
+<div class="hd-in">
+<a class="pill logo" href="index.html" aria-label="Fabbriology, home"><span class="mir" aria-hidden="true">F</span><span aria-hidden="true">ABBRIOLOGY</span></a>
+<nav class="hd-nav" aria-label="Primary">
+<a class="pill" href="index.html#work">Work</a>
+<a class="pill" href="index.html#artist">Artist</a>
+<a class="pill" href="index.html#collect">Collect</a>
+<a class="pill" href="paintings.html">Paintings</a>
+</nav>
+<div class="hd-right">
+<a class="pill pill-accent" href="portfolio.html"><span class="long">For designers &amp; galleries</span><span class="short">For designers</span></a>
+<button type="button" class="pill pill-sq" id="menuBtn" aria-expanded="false" aria-controls="menu" aria-label="Menu">+</button>
+</div>
+<div class="menu" id="menu" role="group" aria-label="Menu" hidden>
+<div class="m-index"><h2>Index</h2><ul><li><a href="index.html#work">Work</a></li><li><a href="index.html#artist">Artist</a></li><li><a href="index.html#collect">Collect</a></li><li><a href="paintings.html">Paintings</a></li></ul></div>
+<div><h2>Collect</h2><ul><li><a href="index.html#work">Request info</a></li><li><a href="index.html#commission">Commission a piece</a></li><li><a href="portfolio.html">For designers &amp; galleries</a></li></ul></div>
+<div><h2>Studio</h2><ul><li><a href="https://angelafabbri.com/pages/bio" title="Built in the next phase">Bio</a></li><li><a href="https://angelafabbri.com/pages/press" title="Built in the next phase">Press</a></li><li><a href="https://angelafabbri.com/collections/all" title="Built in the next phase">Shop</a></li><li><a href="https://angelafabbri.com/pages/contact" title="Built in the next phase">Contact</a></li></ul></div>
+<div class="m-theme"><fieldset class="seg"><legend class="micro muted">Theme</legend><div class="seg-row">
+<label><input type="radio" name="theme-panel" value="system" data-theme-radio><span>System</span></label>
+<label><input type="radio" name="theme-panel" value="light" data-theme-radio><span>Light</span></label>
+<label><input type="radio" name="theme-panel" value="dark" data-theme-radio><span>Dark</span></label></div></fieldset></div>
+</div>
+</div>
+</header>
+<main id="main">
+<div class="wrap">
+<div class="page-head">
+<p class="crumb micro"><span>03.1 Collect / Portfolio</span></p>
+<h1 class="h-hero">Portfolio for designers &amp; galleries</h1>
+</div>
+<div class="pf-hero">
+<div>
+<p class="editorial">The full portfolio builds in the next phase. Gallery opens here in the next build.</p>
+<ol class="num-list" role="list">
+<li><span class="n">01</span><span id="tradeRange">Ready-to-ship originals.</span></li>
+<li><span class="n">02</span><span>Commissions sized and colored for a specific room.</span></li>
+<li><span class="n">03</span><span>High-resolution images, dimensions and CV on request.</span></li>
+<li><span class="n">04</span><span>One email, a personal reply within 1 business day.</span></li>
+</ol>
+<div class="btn-row"><a class="btn btn-primary" href="mailto:angela@fabbriology.com?subject=Trade%20inquiry">Email the studio</a><a class="btn btn-secondary" href="https://angelafabbri.com/pages/press" title="Built in the next phase">Download PDF portfolio</a><a class="btn btn-ghost" href="paintings.html">Back to paintings</a></div>
+</div>
+<figure>
+<div class="square"><img src="https://angelafabbri.com/cdn/shop/files/installation-fabbri-best-houston-artist.ai-01-01-01.jpg?width=1200" width="1200" height="1200" decoding="async" fetchpriority="high" alt="Bloom Big, a wall of blue painted panels with backwards green lettering, installed in a Houston hotel lobby"></div>
+<figcaption class="cap micro">Bloom Big, a living-art installation in a Houston Medical Center hotel, as reported by CultureMap Houston.</figcaption>
+</figure>
+</div>
+<section class="sub" aria-labelledby="pf-h">
+<div class="sub-head"><h2 class="sub-h" id="pf-h"><span class="num">Preview · first six entries</span>A first look.</h2></div>
+<ul class="pf-grid" id="pfGrid" role="list"></ul>
+</section>
+</div>
+</main>
+<footer class="ft">
+<div class="wrap">
+<div class="ft-grid">
+<div class="ft-studio"><h2>Studio</h2><p>Fabbriology Fine Art<br>Houston, Texas</p>
+<p class="mail"><a href="mailto:angela@fabbriology.com"><span id="mailAddr">angela@fabbriology.com</span></a><button type="button" class="copy" id="copyMail" aria-label="Copy email address">Copy</button></p></div>
+<nav aria-label="Index"><h2>Index</h2><ul><li><a href="index.html#work">Work</a></li><li><a href="index.html#artist">Artist</a></li><li><a href="index.html#collect">Collect</a></li><li><a href="paintings.html">Paintings</a></li><li><a href="portfolio.html">Portfolio</a></li></ul></nav>
+<nav aria-label="Elsewhere"><h2>Elsewhere</h2><ul><li><a href="https://www.instagram.com/fabbriology/">Instagram</a></li><li><a href="https://www.facebook.com/Fabbriology">Facebook</a></li></ul></nav>
+<div><fieldset class="seg"><legend class="micro muted">Theme</legend><div class="seg-row">
+<label><input type="radio" name="theme-footer" value="system" data-theme-radio><span>System</span></label>
+<label><input type="radio" name="theme-footer" value="light" data-theme-radio><span>Light</span></label>
+<label><input type="radio" name="theme-footer" value="dark" data-theme-radio><span>Dark</span></label></div></fieldset></div>
+</div>
+<div class="ft-bottom micro"><span>© 2026 Fabbriology Fine Art</span><span>Demo build, nothing is sent</span><a href="../index.html">Demo D</a></div>
+</div>
+</footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
