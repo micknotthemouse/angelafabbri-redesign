@@ -2,7 +2,7 @@
 
 ## 2026-10-23 — directions workflow running
 
-**Running:** nothing. Phase 2 workflow `af-site-c-build` (wf_2cdf3b4b-10b) DONE: 13 agents, all 5 verify groups passed round 1, link check 0 broken. Full site pushed and live at the Pages URL under /site/. Phase 1 DONE (see Status).
+**Running:** Workflow `af-option-d-isembard` (run wf_3d7f057c-441, task wkztiaxcz; script `C:UsersMNowo.claudeprojectsC--Users-MNowoc1c04d4-33b4-52d8-8bbc-9826b7ea160cworkflowsscriptsaf-option-d-isembard-wf_3d7f057c-441.js`): Option D mockup in the Isembard.com visual language (user request 2026-10-25, scope confirmed: home + paintings + detail, like A/B/C) → Opus spec `work/design/option-d.md` + skeptic `skeptic-review-d.md` → Sonnet build `docs/option-d/` → verify/fix → landing card. Reference captures in `work/research/isembard/`. When done: spot-check `work/screens/option-d/` PNGs (both themes), commit + push docs, curl the Pages URL, update decisions.md (D11: Option D requested as a fourth direction), changelog, checkpoint, report. Phase 1 and 2 DONE (see Status).
 
 **Links:** Pages site https://micknotthemouse.github.io/angelafabbri-redesign/ (repo https://github.com/micknotthemouse/angelafabbri-redesign, Pages from `main:/docs`). Live site https://angelafabbri.com (Shopify, Dawn 15.2). Storeify quote-app config decoded at `source/data/storeify-config.json` (contains the current and business email addresses; do not copy into the vault).
 
